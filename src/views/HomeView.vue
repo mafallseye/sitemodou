@@ -1,5 +1,7 @@
 <template>
  
+
+
 <nav class="bg-white border-gray-200 dark:bg-gray-900">
     <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl px-4 md:px-6 py-2.5">
         <a href="#" class="flex items-center">
@@ -54,11 +56,12 @@
 </section>
 
 <!-- milieu produis -->
-<section id="perimetre" class="bg-white dark:bg-gray-900">
-  <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-      <div class=" bg-green-500 max-w-screen-xl mb-8 lg:mb-16">
-          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Terrains disponible</h2>
-          <p class="text-gray-900 sm:text-xl dark:text-gray-400">   Vente de terrain disponible. les terrains sont dans une zone très
+<section id="perimetre" class="bg-white dark:bg-gray-900 cursive">
+  <div class="py-8 px-4 cursive mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+      <div class=" bg-white max-w-screen-xl mb-8 lg:mb-16">
+          <h2 class="mb-4 text-4xl uppercase cursive tracking-tight font-extrabold text-gray-900 dark:text-white">Terrains disponible</h2>
+        <progress class="progress progress-accent w-56" value="100" max="100"></progress>
+          <p class="text-gray-900 sm:text-xl dark:text-gray-400 cursive ">   Vente de terrain disponible. les terrains sont dans une zone très
       accessible à moins de 10 ms de la RN ou de l'autoroute Ila Touba.</p>
       </div>
       <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
@@ -347,6 +350,9 @@
                         <li class="mb-4">
                             <a href="tel:+221776881409" class="hover:underline ">+221 776881409</a>
                         </li>
+                        <li class="mb-4">
+                            <a href="tel:+221784621660" class="hover:underline ">+221 776881409</a>
+                        </li>
                         <li>
                             <a href="mailto:modoufgueye@gmail.com" class="hover:underline">modoufgueye@gmail.com</a>
                         </li>
@@ -411,3 +417,6 @@ export default {
   }
 }
 </script>
+<style scoped>
+
+</style>

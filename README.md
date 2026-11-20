@@ -1,19 +1,31 @@
-# sitemodou
+<p align="center"><img src="docs/banner.png" alt="Site vitrine — Site vitrine en Vue 3 et Tailwind CSS" width="100%"></p>
 
-## Project setup
-```
+# Site vitrine
+
+Site vitrine.
+
+## Fonctionnalités
+
+- Pages Accueil et À propos
+- Composants Flowbite
+
+## Technologies
+
+Vue 3 · Vue Router · Tailwind CSS · Flowbite
+
+## Lancer le projet
+
+Prérequis : Node.js 16 ou plus.
+
+```bash
+git clone https://github.com/mafallseye/sitemodou.git
+cd sitemodou
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+> Projet réalisé en 2023 pendant ma formation. Il est conservé ici comme trace de mon parcours.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Auteure
+
+**Maguette Fall SEYE** — Développeuse Full Stack, Dakar (Sénégal) · [github.com/mafallseye](https://github.com/mafallseye)
